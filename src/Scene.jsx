@@ -27,10 +27,10 @@ export function Scene() {
             placementCameraOffset={[0, 0, -5]}
           >
             {/* Your 3D content */}
-            <Environment
+            {/* <Environment
               files={process.env.PUBLIC_URL + "/textures/envmap.hdr"}
               background={"both"}
-            />
+            /> */}
             <Track />
             <Ground />
             <Car />
